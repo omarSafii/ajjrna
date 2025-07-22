@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --primary: 255 175 68;
+    --secondary: 121 82 206;
+    --success: 114 225 77; /* #72E14D */
+    --error: 220 38 38; /* #dc2626 */
+
+    --background-03: 249 252 255;
+    --background-02: 223 231 237;
+    --background-01: 234 240 245;
+    --line: 199 213 225;
+    --text: 234 240 245;
+    --text-body: 68 82 94;
+  }
+}
