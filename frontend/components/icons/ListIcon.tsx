@@ -1,0 +1,63 @@
+import { SVGProps } from "react";
+
+export default function ListIcon({ ...props }: SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      width="49"
+      height="49"
+      viewBox="0 0 49 49"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <rect
+        x="11.3066"
+        y="11.3077"
+        width="7.53846"
+        height="7.53846"
+        rx="3"
+        fill="currentColor"
+      />
+      <rect
+        x="21.3574"
+        y="13.8206"
+        width="17.5897"
+        height="2.51282"
+        rx="1.25641"
+        fill="currentColor"
+      />
+      <rect
+        x="11.3066"
+        y="21.359"
+        width="7.53846"
+        height="7.53846"
+        rx="3"
+        fill="currentColor"
+      />
+      <rect
+        x="21.3574"
+        y="23.8718"
+        width="17.5897"
+        height="2.51282"
+        rx="1.25641"
+        fill="currentColor"
+      />
+      <rect
+        x="11.3066"
+        y="31.4103"
+        width="7.53846"
+        height="7.53846"
+        rx="3"
+        fill="currentColor"
+      />
+      <rect
+        x="21.3574"
+        y="33.9231"
+        width="17.5897"
+        height="2.51282"
+        rx="1.25641"
+        fill="currentColor"
+      />
+    </svg>
+  );
+}
